@@ -1,11 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lamding Page</title>
+    <script src="https://kit.fontawesome.com/869ea98b1d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
+
 <body>
-    
+    <!-- cabecera de pagina -->
+    <header class="header">
+        <div class="logo">
+            <div class="circulo"></div>
+            <h2 class="nombre">
+                Biblioteca Virtual
+            </h2>
+        </div>
+        <nav class="link">
+            <a href="#cuentos" class="cuentos">Cuentos</a>
+            <a href="#mitos" class="mitos">Mitos</a>
+            <a href="#leyendas" class="leyendas">Leyendas</a>
+        </nav>
+    </header>
+
+    <!-- cuerpo de pagina -->
+    <section class="home">
+        <div class="home__principal">
+            <div class="contenido">
+                <h1 class="titulo">Biblioteca Virtual <span>Sabiduria</span></h1>
+                <p class="texto">
+                    Tu biblioteca virtual, el mundo entero de la información en la palma de tu mano.
+                </p>
+            </div>
+            <div class="imagen">
+                <img src="/img/study-literature.svg" alt="logo">
+            </div>
+        </div>
+
+        <div class="home__cuentos" id="cuentos">
+            <div class="imagen1"">
+                <img src=" /img/teacher-reading-book-while-standing.png" alt="" style="width: 510px; height: 555px;">
+            </div>
+            <div class="contenido1">
+                <div class="info">
+                    <h1 class="titulo1">Cuentos</h1>
+                    <p class="texto1">
+                        Los cuentos son como ventanas que nos llevan a mundos mágicos e imaginarios. ¿Quieres descubrir
+                        qué hay detrás de ellas?
+                    </p>
+                </div>
+                <button class="button">Conocer mas
+                    <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+
+        <div class="home__mitos" id="mitos">
+            <div class="contenido1">
+                <div class="info">
+                    <h1 class="titulo1">Mitos</h1>
+                    <p class="texto1">
+                        Los mitos tienen el poder de hacerte imaginar cosas increíbles y de transportarte a lugares
+                        fantásticos. ¿Te atreves a descubrirlos?
+                    </p>
+                </div>
+                <button class="button">Conocer mas
+                    <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <div class="imagen"">
+                <img src=" /img/teacher-explaining-to-students.png" alt="" style="width: 510px; height: 555px;">
+            </div>
+        </div>
+
+        <div class="home__leyendas" id="leyendas">
+            <div class="imagen1"">
+                <img src=" /img/teacher-explaining-while-sitting-on-armchair.png" alt=""
+                style="width: 510px; height: 555px;">
+            </div>
+            <div class="contenido1">
+                <div class="info">
+                    <h1 class="titulo1">Leyendas</h1>
+                    <p class="texto1">
+                        Las fronteras entre lo real y lo mítico se desdibujan. Aquí, las historias de dioses y héroes,
+                        de criaturas fantásticas y maravillas ocultas, cobran vida en cada página.
+                    </p>
+                </div>
+                <button class="button">Conocer mas
+                    <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- pie de pagina -->
+    <footer class="footer">
+        <div class="contenidos">
+            <h2 class="titulo__logo">
+                Biblioteca Virtual <span class="sabiduria">Sabiduria</span>
+            </h2>
+            <p>
+                copyright © 2023 Todos los derechos reservados
+            </p>
+        </div>
+
+        <div class="formulario">
+            <h3 class="cosultas">Consultas</h3>
+            <div class="linea"></div>
+            <pre class="text">Inconveniencias en la pagina</pre>
+            <div class="input">
+                <input type="text" class="input1" placeholder="Ingresa tu Email" required>
+            </div>
+            <div class="input">
+                <textarea name="" class="input1" placeholder="Comentario"></textarea>
+            </div>
+            <div class="button1">
+                <button class="btn">Iniciar Sesion</button>
+            </div>
+        </div>
+
+        <div class="contactos">
+            <h3 class="contactos">Contactos</h3>
+            <div class="linea"></div>
+            <div class="logos">
+                <i class="fa-brands fa-instagram"></i>
+                Instagram
+                <i class="fa-brands fa-facebook"></i>
+                Facebook
+                <i class="fa-brands fa-discord"></i>
+                Discord
+            </div>
+        </div>
+    </footer>
+
 </body>
+
 </html>
