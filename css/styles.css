@@ -106,7 +106,7 @@
     background: #E7F5E3;
 }
 
-.home__cuentos .imagen1 {
+.home__cuentos .imagen1 .img {
     width: 510px;
     height: 555px;
     flex-shrink: 0;
@@ -176,6 +176,12 @@
     background: rgba(255, 215, 0, 0.50);
 }
 
+.home__mitos .imagen1 .img {
+    width: 510px;
+    height: 555px;
+    flex-shrink: 0;
+}
+
 .home__leyendas {
     width: 1519px;
     height: 555px;
@@ -186,6 +192,12 @@
 
 .home__leyendas .contenido1 {
     background: rgba(0, 163, 204, 0.50);
+}
+
+.home__leyendas .imagen1 .img {
+    width: 510px;
+    height: 555px;
+    flex-shrink: 0;
 }
 
 .footer {
@@ -347,4 +359,131 @@
     align-items: center;
     gap: 22px;
     color: var(--color-font-texto);
+}
+
+
+/* responsive */
+@media(max-width: 768px) {
+    .header {
+        flex-direction: column;
+        width: 430px;
+        gap: 20px;
+        padding: 25px;
+    }
+
+    .link {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .home__principal {
+        width: 480px;
+    }
+
+    .home__principal .contenido {
+        left: 50px;
+    }
+
+    .contenido .texto {
+        width: 300px;
+    }
+
+    .home__principal .imagen {
+        width: 0;
+        height: 0;
+    }
+
+    .home__cuentos {
+        width: 480px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    .home__cuentos .imagen1 .img {
+        width: 0;
+        height: 0;
+    }
+
+    .home__cuentos .contenido1 {
+        width: 480px;
+        border-radius: 0px 225px;
+    }
+
+    .contenido1 .info {
+        align-items: center;
+        width: 330px;
+    }
+
+    .home__mitos {
+        width: 480px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home__mitos .imagen1 .img {
+        width: 0;
+        height: 0;
+    }
+
+    .home__mitos .contenido1 {
+        width: 480px;
+        border-radius: 225px 0px;
+    }
+
+    .home__leyendas {
+        width: 480px;
+        display: flex;
+        flex-direction: column;
+
+        justify-content: flex-end;
+    }
+
+    .home__leyendas .imagen1 .img {
+        width: 0;
+        height: 0;
+    }
+
+    .home__leyendas .contenido1 {
+        width: 480px;
+        border-radius: 0px 225px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        width: 480px;
+        height: 640px;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 20px;
+    }
+
+    .footer .contenidos {
+        padding: 0;
+        width: 300px;
+        flex-direction: row;
+    }
+
+    .footer .formulario {
+        padding: 0;
+        height: 260px;
+    }
+
+    .formulario .consulta {
+        padding: 10px;
+    }
+
+    .footer .contacto {
+        padding: 0;
+        gap: 15px;
+    }
+
+    .contacto .logos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
 }
